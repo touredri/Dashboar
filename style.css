@@ -117,10 +117,22 @@ article h2 {
   min-height: 220px;
 }
 
+@keyframes anim {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 .card:hover {
     border-left: 10px solid #1992d4;
     border-bottom: 8px solid #f0b429;
-    transform: scale(1.01);
+    animation: anim 2.5s linear infinite;
 }
 
 a:hover {
