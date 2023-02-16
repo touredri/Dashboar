@@ -117,6 +117,17 @@ article h2 {
   min-height: 220px;
 }
 
+.card:hover {
+    border-left: 10px solid #1992d4;
+    border-bottom: 8px solid #f0b429;
+    transform: scale(1.01);
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
 .icone {
   position: relative;
   left: 250px;
